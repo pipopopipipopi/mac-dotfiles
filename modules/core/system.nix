@@ -11,4 +11,12 @@
 
   programs.fish.enable = true;
   programs.zsh.enable = true;
+
+  fonts = {
+    fontDir.enable = true;
+
+    fonts = with pkgs; [
+      hackgen-nf-font
+    ];
+  };
 }
