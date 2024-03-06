@@ -2,6 +2,6 @@
 
 {
    imports = [
-     # ./homebrew.nix
+     ./homebrew.nix
    ];
 }

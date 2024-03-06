@@ -27,6 +27,9 @@
       # Browser
       "vivaldi"
 
+      # IME
+      "google-japanese-ime"
+
       # Lancher
       "raycast"
     ];
