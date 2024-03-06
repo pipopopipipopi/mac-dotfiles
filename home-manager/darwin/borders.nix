@@ -5,7 +5,8 @@
     target = ".config/borders/bordersrc";
     text = ''
       #!/user/bin/env sh
-      borders active_color=0x000000 inactive_color=0xffffff width=6.0
+      
+        borders style=square width=6.0 hidpi=off active_color=0xea9a97 inactive_color=0x3e8fb0
     '';
   };
 }
