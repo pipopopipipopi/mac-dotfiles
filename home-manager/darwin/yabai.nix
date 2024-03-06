@@ -40,11 +40,11 @@
                       mouse_drop_action          swap         \
                       layout                     bsp          \
                                                               \
-                      top_padding                4            \
-                      bottom_padding             4            \
-                      left_padding               4            \
-                      right_padding              4            \
-                      window_gap                 6
+                      top_padding                6            \
+                      bottom_padding             6            \
+                      left_padding               6            \
+                      right_padding              6            \
+                      window_gap                 8
 
       echo "yabai configuration loaded.."
     '';

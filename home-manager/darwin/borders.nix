@@ -6,7 +6,7 @@
     text = ''
       #!/user/bin/env sh
       
-        borders style=square width=6.0 hidpi=off active_color=0xea9a97 inactive_color=0x3e8fb0
+      borders style=round active_color=0xffea9a97 inactive_color=0xff3e8fb0 width=6.0 hidpi=off
     '';
   };
 }
