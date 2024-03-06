@@ -36,6 +36,6 @@ vim.opt.pumblend = 30
 vim.opt.background = 'dark'
 vim.opt.scrolloff = 8
 vim.opt.sidescrolloff = 8
---vim.opt.guifont = 'Hack Nerd Font Regular:h10'
+vim.opt.guifont = 'Hack Nerd Font Regular:h10'
 vim.opt.splitbelow = false -- オンのとき、ウィンドウを横分割すると新しいウィンドウはカレントウィンドウの下に開かれる
 vim.opt.splitright = false -- オンのとき、ウィンドウを縦分割すると新しいウィンドウはカレントウィンドウの右に開かれる
