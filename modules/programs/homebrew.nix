@@ -18,6 +18,7 @@
       "skhd"
       "yabai"
       "sketchybar"
+      "borders"
     ];
 
     casks = [
