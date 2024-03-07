@@ -38,6 +38,7 @@
                       mouse_action1              move         \
                       mouse_action2              resize       \
                       mouse_drop_action          swap         \
+                      menubar_opacity            0.0          \
                       layout                     bsp          \
                                                               \
                       top_padding                6            \
@@ -45,6 +46,8 @@
                       left_padding               6            \
                       right_padding              6            \
                       window_gap                 8
+
+      yabai -m rule --add app="^System Settings$" manage=off
 
       echo "yabai configuration loaded.."
     '';
