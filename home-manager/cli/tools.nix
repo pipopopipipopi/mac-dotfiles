@@ -6,6 +6,7 @@
     bottom
     eza
     fd
+    felix-fm
     fzf
     gitui
     ripgrep
