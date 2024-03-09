@@ -8,5 +8,8 @@
 
     ## Python
     python312
+
+    ## Rust
+    rust-bin.stable.latest.default
   ];
 }

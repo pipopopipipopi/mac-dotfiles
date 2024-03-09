@@ -11,6 +11,8 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    rust-overlay.url = "github:oxalica/rust-overlay";
   };
 
   outputs = { self, nixpkgs, darwin, home-manager, ... }@inputs:
@@ -34,6 +36,7 @@
           home-manager.darwinModules.home-manager {
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
+            nixpkgs.overlays = [(import inputs.rust-overlay)];
             home-manager.extraSpecialArgs = specialArgs;
             home-manager.users.${username} = import ./home-manager;
           }
