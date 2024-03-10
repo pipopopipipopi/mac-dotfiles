@@ -1,6 +1,7 @@
 return {
     {
         "hrsh7th/nvim-cmp",
+        event = "VimEnter",
         dependencies = {
             { "neovim/nvim-lspconfig" },
             { "hrsh7th/cmp-nvim-lsp" },
@@ -11,7 +12,6 @@ return {
             { "L3MON4D3/LuaSnip" },
             { "saadparwaiz1/cmp_luasnip" }
         },
-        event = "VimEnter",
         config = function()
             local cmp = require("cmp")
             cmp.setup({
