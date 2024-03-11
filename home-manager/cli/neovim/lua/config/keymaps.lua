@@ -8,4 +8,4 @@ vim.keymap.set("n", "j", "gj", { noremap = true })
 vim.keymap.set("n", "k", "gk", { noremap = true })
 
 -- terminal
-vim.keymap.set("t", "<ESC>", "<C-\><C-n>", { noremap = true })
+vim.keymap.set("t", "<ESC>", "<C-\\><C-n>", { noremap = true })
