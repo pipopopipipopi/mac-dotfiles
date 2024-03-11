@@ -1,8 +1,11 @@
---ESC*2 nohlsearch
+-- ESC*2 nohlsearch
 vim.keymap.set("n", "<Esc><Esc>", ":<C-u>set nohlsearch<Return>", opts)
 
---jj ESC
-vim.keymap.set('i', 'jj', '<ESC>', { noremap = true, silent = true })
+-- jj ESC
+vim.keymap.set("i", "jj", "<ESC>", { noremap = true, silent = true })
 
-vim.keymap.set('n', 'j', 'gj', { noremap = true })
-vim.keymap.set('n', 'k', 'gk', { noremap = true })
+vim.keymap.set("n", "j", "gj", { noremap = true })
+vim.keymap.set("n", "k", "gk", { noremap = true })
+
+-- terminal
+vim.keymap.set("t", "<ESC>", "<C-\><C-n>", { noremap = true })
