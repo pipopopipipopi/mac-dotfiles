@@ -1,5 +1,29 @@
 return {
     {
+        "williamboman/mason.nvim",
+        event = { "BufReadPre", "VimEnter" },
+        config = function()
+            require("mason").setup({
+                ui = {
+                    icons = {
+                        package_installed = "✓",
+                        package_pending = "➜",
+                        package_uninstalled = "✗"
+                    }
+                }
+            })
+        end,
+    },
+
+    {
+        "williamboman/mason-lspconfig.nvim",
+        event = "BufReadPre",
+        config = function()
+            require("mason-lspconfig").setup()
+        end,
+    },
+
+    {
         "hrsh7th/nvim-cmp",
         event = "VimEnter",
         dependencies = {
@@ -55,5 +79,5 @@ return {
 
             local capabilities = require("cmp_nvim_lsp").default_capabilities()
         end,
-    }
+    },
 }

@@ -9,7 +9,11 @@
     felix-fm
     fzf
     gitui
+    httpie
     ripgrep
+
+    unzip
+    zip
 
     # Rice
     neofetch
