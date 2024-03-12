@@ -38,8 +38,8 @@ vim.opt.pumheight = 10
 vim.opt.showmode = false
 vim.opt.wrap = true
 vim.opt.wildoptions = "pum"
-vim.opt.winblend = 30
-vim.opt.pumblend = 30
+vim.opt.winblend = 0
+vim.opt.pumblend = 0
 vim.opt.background = "dark"
 vim.opt.guifont = "Hack Nerd Font Regular:h10"
 
