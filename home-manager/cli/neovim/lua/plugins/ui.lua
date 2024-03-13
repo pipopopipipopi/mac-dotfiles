@@ -32,10 +32,11 @@ return {
             }
             dashboard.section.header.val = logo
             dashboard.section.buttons.val = {
-                dashboard.button("e", "󰝒 New file", ":enew<CR>"),
-                dashboard.button("f", "󰈞 Find file", ":Telescope find_files<CR>"),
-                dashboard.button("g", " Find word", ":Telescope live_grep<CR>"),
-                dashboard.button("q", "󰗼 Exit", ":qa<CR>"),
+                dashboard.button("e", " 󰝒 > New file", ":enew<CR>"),
+                dashboard.button("f", " 󰈞 > Find file", ":Telescope find_files<CR>"),
+                dashboard.button("r", "  > Recently used files", ":Telescope oldfiles<CR>"),
+                dashboard.button("g", "  > Find word", ":Telescope live_grep<CR>"),
+                dashboard.button("q", "  > Exit", ":qa<CR>"),
             }
             local handle = io.popen("fortune")
             local fortune = handle:read("*a")
